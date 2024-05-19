@@ -4,7 +4,8 @@
     "name": "Tapomoy Adhikari",
     "givenName": "Tapomoy",
     "familyName": "Adhikari",
-    "additionalName": ["Prof. Tarun Adhikari, AMIE", "Arpita B. Adhikari"],
+    "fatherName": ["Prof. Tarun Adhikari, AMIE"],
+    "motherName": ["Arpita Adhikari"],
     "jobTitle": "Principal Researcher",
     "affiliation": {
       "@type": "Organization",
