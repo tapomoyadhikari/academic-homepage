@@ -133,3 +133,49 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff; /* White background for a clean look */
+  position: fixed;
+  align-content: center;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: center; /* Center align items horizontally */
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #333333; /* Dark grey text color */
+  text-align: center;
+  padding: 16px 20px; /* Comfortable padding */
+  text-decoration: none;
+  font-size: 16px; /* Standard font size */
+  position: relative; /* Needed for the underline effect */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar a:hover {
+  color: #007BFF; /* Blue color on hover */
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #2c2c2c; /* Blue underline */
+  transition: width 0.3s ease, right 0.3s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+  right: 0;
+}
